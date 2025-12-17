@@ -1,0 +1,330 @@
+.home-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.home-content section {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.home-content section:last-child {
+  margin-bottom: 0;
+}
+
+.home-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+  display: block;
+  width: 100%;
+}
+
+.latest-post article {
+  padding: 1rem;
+  background: var(--code-bg);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.latest-post h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.latest-post time {
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.recent-updates ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.recent-updates li {
+  padding: 0.5rem 0;
+}
+
+.recent-updates time {
+  color: var(--secondary);
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+
+.section-badge {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  background: var(--code-bg);
+  border-radius: 4px;
+  color: var(--primary);
+}
+
+.profile {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.profile h2 {
+  display: block !important;
+  width: 100%;
+  border-bottom: 2px solid var(--border);
+  text-align: left;
+}
+
+.profile-content {
+  margin-top: 1rem;
+  display: block !important;
+  width: 100%;
+  text-align: left;
+}
+
+.profile-content p {
+  margin: 0.5rem 0;
+  display: block !important;
+  width: 100%;
+  text-align: left;
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 768px) {
+  .home-content {
+    padding: 1rem 1rem;
+  }
+  
+  .home-content h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* 記事リスト - 間隔調整 */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;  /* 1.5rem → 0.8rem に縮める */
+}
+
+.article-item {
+  padding: 0.8rem 0;  /* 1.2rem → 0.8rem に縮める */
+  border-bottom: 1px solid var(--border);
+}
+
+/* メタ情報の色を明るく */
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--secondary);  /* tertiary → secondary に戻す（明るく） */
+  opacity: 0.85;  /* 0.7 → 0.85 に明るく */
+}
+
+.article-platform {
+  font-weight: 500;
+}
+
+.article-tag {
+  opacity: 0.9;  /* 0.8 → 0.9 に明るく */
+}
+
+/* アーカイブページ：月見出し */
+.archive-month {
+  margin: 1rem 0 0.5rem 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+/* 月の区切り線（月見出しの上） */
+.month-divider {
+  border: none !important;
+  border-top: 1px solid var(--border) !important;
+  margin: 1.5rem 0 1rem 0 !important;
+}
+
+/* アーカイブページ：月見出し */
+.archive-month {
+  margin: 1rem 0 0.3rem 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+/* 月の区切り線（月見出しの上・太く） */
+.month-divider {
+  border: none !important;
+  border-top: 2px solid var(--border) !important;  /* 1px → 2px */
+  margin: 1.5rem 0 1rem 0 !important;
+}
+
+/* アーカイブアイテム */
+.archive-item {
+  margin: 0.2rem 0 !important;  /* 0.3rem → 0.2rem */
+  padding: 0.3rem 0 !important;  /* 0.5rem → 0.3rem */
+  border-bottom: none !important;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.archive-date {
+  min-width: 3rem;
+  font-size: 0.85rem;
+  color: var(--secondary) !important;
+}
+
+.archive-section {
+  min-width: 4rem;
+  font-size: 0.85rem;
+  color: var(--secondary) !important;
+}
+
+.archive-title {
+  flex: 1;
+  font-weight: 500;
+}
+
+/* 外部記事バッジ */
+.external-badge {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--secondary);
+  background: var(--code-bg);
+  border-radius: 3px;
+}
+
+/* Works セクション */
+.works-type-section {
+  margin-bottom: 2rem;
+}
+
+.type-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.work-item {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+}
+
+.work-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.work-title {
+  font-weight: 500;
+}
+
+.work-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
+/* Type バッジ（デフォルト） */
+.type-badge {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: var(--secondary);
+  color: var(--theme);
+}
+
+/* Type 別の色（後で追加） */
+.type-badge.type-autolisp {
+  background: #3b82f6;
+  color: white;
+}
+
+.type-badge.type-プログラム {
+  background: #10b981;
+  color: white;
+}
+
+.type-badge.type-外部サービス {
+  background: #f59e0b;
+  color: white;
+}
+
+.type-badge.type-料理 {
+  background: #ef4444;
+  color: white;
+}
+
+/* 検索ページのアーカイブセクション */
+.archives-section {
+  margin-top: 3rem;
+}
+
+.archive-years {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.archive-year-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--code-bg);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.archive-year-link:hover {
+  background: var(--border);
+}
+
+/* Twemoji サイズ調整 */
+img.emoji {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+  display: inline;
+  margin: 0;
+}
+
+/* メニューを太字 */
+nav a {
+  font-weight: 600;
+}
+
+/* セクションバッジの色分け */
+.section-badge.posts {
+  background: #c7830d;
+  color: white;
+}
+
+.section-badge.articles {
+  background: #0e9e6e;
+  color: white;
+}
+
+.section-badge.works {
+  background: #3675da;
+  color: white;
+}

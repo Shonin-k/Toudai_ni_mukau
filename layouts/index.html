@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="home-content">
+  <section class="latest-post">
+    <h2>📌 最新の日記</h2>
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ $latest := index $posts 0 }}
+    {{ if $latest }}
+      <article>
+        <h3><a href="{{ $latest.Permalink }}">{{ $latest.Title }}</a></h3>
+        <time>{{ $latest.Date.Format "2006-01-02" }}</time>
+        <p>{{ $latest.Summary }}</p>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="recent-updates">
+    <h2>💡 更新履歴</h2>
+    <ul>
+    {{ range first 5 .Site.RegularPages }}
+      <li>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <span class="section-badge {{ .Section }}">
+          {{ if eq .Section "posts" }}日記{{ else if eq .Section "articles" }}記事{{ else if eq .Section "works" }}製作{{ else }}{{ .Section }}{{ end }}
+        </span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+    </ul>
+  </section>
+
+  <section class="profile">
+    <h2>🐺 プロフィール</h2>
+    {{ $profile := .Site.Data.profile }}
+    <div class="profile-content">
+      <p><strong>Name:</strong> {{ $profile.name }}</p>
+      <p><strong>Age:</strong> {{ $profile.age }}</p>
+      <p><strong>Job:</strong> {{ $profile.job }}</p>
+      <p><strong>Location:</strong> {{ $profile.location }}</p>
+    </div>
+  </section>
+</div>
+{{ end }}

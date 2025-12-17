@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>#{{ .Title }}</h1>
+  <div class="post-meta">
+    {{ .Data.Pages.Len }} 件
+  </div>
+</header>
+
+<div class="article-list">
+  {{ range .Pages }}
+  <article class="article-item">
+    <a href="{{ .Permalink }}" class="article-link">
+      <span class="article-title">{{ .Title }}</span>
+    </a>
+    <div class="article-meta">
+      <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+      {{ if .Params.platform }}
+      <span class="article-platform">{{ .Params.platform }}</span>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

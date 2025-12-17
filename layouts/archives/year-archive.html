@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="archive-year">
+  {{ $currentMonth := "" }}
+  {{ $targetYear := string .Params.year }}
+  {{ range (where site.RegularPages "Section" "!=" "archives").ByDate.Reverse }}
+    {{ if eq (.Date.Format "2006") $targetYear }}
+      {{ $month := .Date.Format "01" }}
+      {{ if ne $currentMonth $month }}
+        {{ if ne $currentMonth "" }}
+          <hr class="month-divider">
+        {{ end }}
+        <h2 class="archive-month">{{ .Date.Format "2006-01" }}</h2>
+        {{ $currentMonth = $month }}
+      {{ end }}
+      
+      <div class="archive-item">
+        <span class="archive-date">{{ .Date.Format "01/02" }}</span>
+        <span class="archive-section">{{ if eq .Section "posts" }}日記{{ else if eq .Section "articles" }}記事{{ else if eq .Section "works" }}製作{{ else }}{{ .Section }}{{ end }}</span>
+        <a href="{{ .Permalink }}" class="archive-title">{{ .Title }}</a>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

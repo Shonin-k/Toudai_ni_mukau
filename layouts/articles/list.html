@@ -1,0 +1,36 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>記事</h1>
+</header>
+
+<div class="article-list">
+  {{ $paginator := .Paginate .Pages 20 }}
+  {{ range $paginator.Pages }}
+  <article class="article-item">
+    {{ if .Params.external_url }}
+      <!-- 外部リンク -->
+      <a href="{{ .Params.external_url }}" target="_blank" rel="noopener noreferrer" class="article-link">
+        <span class="article-icon">{{ default "🔗" .Params.icon }}</span>
+        <span class="article-title">{{ .Title }}</span>
+        <span class="external-badge">外部記事</span>
+      </a>
+    {{ else }}
+      <!-- 内部リンク -->
+      <a href="{{ .Permalink }}" class="article-link">
+        <span class="article-icon">{{ default "📄" .Params.icon }}</span>
+        <span class="article-title">{{ .Title }}</span>
+      </a>
+    {{ end }}
+    <div class="article-meta">
+      <span class="article-platform">{{ .Params.platform }}</span>
+      <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+      {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}/" class="archive-tag">#{{ . }}</a>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</div>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}

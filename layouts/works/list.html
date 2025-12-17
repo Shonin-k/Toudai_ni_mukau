@@ -1,0 +1,39 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>製作</h1>
+</header>
+
+<div class="works-list">
+  {{ $allWorks := where .Site.RegularPages "Section" "works" }}
+  {{ $types := slice }}
+  {{ range $allWorks }}
+    {{ if .Params.type }}
+      {{ $types = $types | append .Params.type }}
+    {{ end }}
+  {{ end }}
+  {{ $types = uniq $types }}
+  
+  {{ range $types }}
+    {{ $currentType := . }}
+    <section class="works-type-section">
+      <h2 class="type-heading">{{ $currentType }}</h2>
+      
+      {{ range where $allWorks "Params.type" $currentType }}
+      <article class="work-item">
+        <a href="{{ .Permalink }}" class="work-link">
+          <span class="type-badge type-{{ $currentType | urlize }}">{{ $currentType }}</span>
+          <span class="work-title">{{ .Title }}</span>
+        </a>
+        <div class="work-meta">
+          <span class="work-date">{{ .Date.Format "2006-01-02" }}</span>
+          {{ range .Params.tags }}
+          <a href="/tags/{{ . | urlize }}/" class="archive-tag">#{{ . }}</a>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </section>
+  {{ end }}
+</div>
+
+{{ end }}

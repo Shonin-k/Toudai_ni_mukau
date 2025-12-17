@@ -1,0 +1,61 @@
+baseURL = "https://shonin.net/"
+languageCode = "ja"
+title = "灯台に向かう"
+theme = "PaperMod"
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-RPK8WR094G"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+description = "テキストサイト"
+author = "ショウニン"
+defaultTheme = "dark"
+disableThemeToggle = true
+copyright = "灯台に向かう"
+
+[params.label]
+text = "灯台に向かう"
+icon = "/images/logo.png"
+iconHeight = 30
+
+[[params.socialIcons]]
+name = "X"
+url = "https://x.com/shonin_k"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/shonin-k"
+
+[menu]
+[[menu.main]]
+name = "日記 "
+url = "/posts/"
+weight = 1
+post = "📔"
+
+[[menu.main]]
+name = "記事 "
+url = "/articles/"
+weight = 2
+post = "📝"
+
+[[menu.main]]
+name = "製作 "
+url = "/works/"
+weight = 3
+post = "🛠️"
+
+[[menu.main]]
+name = "検索 "
+url = "/search/"
+weight = 4
+post = "🔍"

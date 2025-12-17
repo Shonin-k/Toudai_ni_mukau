@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>検索</h1>
+</header>
+
+<div id="searchbox">
+  <input id="searchInput" autofocus placeholder="記事を検索..." aria-label="search" type="search">
+  <ul id="searchResults"></ul>
+</div>
+
+<section class="archives-section">
+  <h2 style="font-size: 1.3rem; font-weight: 600; margin-top: 3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--border);">アーカイブ</h2>
+  <div class="archive-years">
+    {{ range (where .Site.RegularPages "Section" "archives") }}
+      {{ if .Params.year }}
+      <a href="{{ .Permalink }}" class="archive-year-link">{{ .Params.year }}年</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

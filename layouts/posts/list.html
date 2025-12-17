@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{ $paginator := .Paginate .Pages }}
+
+{{ range $paginator.Pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Summary }}</p>
+  </div>
+  <footer class="entry-footer">
+    <span>{{ .Date.Format "2006/01/02" }}</span>
+  </footer>
+</article>
+{{ end }}
+
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+  {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">← 前のページ</a>
+  {{ end }}
+  {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">次のページ →</a>
+  {{ end }}
+</nav>
+{{ end }}
+
+{{ end }}

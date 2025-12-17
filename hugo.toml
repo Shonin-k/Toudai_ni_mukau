@@ -24,7 +24,7 @@ copyright = "灯台に向かう"
 images = ["/images/ogp-default.png"]
 
 [params.social]
-  twitter = "shonin_k"
+twitter = "shonin_k"
 
 [params.label]
 text = "灯台に向かう"

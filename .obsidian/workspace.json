@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025-12-17.md",
+                "file": "content/works/コンテンツがまだありません.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-17"
+              "title": "コンテンツがまだありません"
             }
           }
         ]
@@ -194,18 +194,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11b9a59542ee78c5",
+  "active": "744a1cedb2b1d5d9",
   "lastOpenFiles": [
-    "content/search.md",
-    "content/新規 テキスト ドキュメント.txt",
+    "static/images/ogp-default.png",
+    "content/posts/コンテンツがまだありません.md",
+    "content/articles/コンテンツがまだありません.md",
     "content/templates/articles.md",
     "content/posts/2025-12-17.md",
+    "content/search.md",
+    "content/新規 テキスト ドキュメント.txt",
     "content/templates/post.md",
     "content/templates/works.md",
     "無題のファイル.md",
     "content/works/コンテンツがまだありません.md",
-    "content/articles/コンテンツがまだありません.md",
-    "content/posts/コンテンツがまだありません.md",
     "content/works/無題のファイル.md",
     "content/works/test.md",
     "content/_index.md",

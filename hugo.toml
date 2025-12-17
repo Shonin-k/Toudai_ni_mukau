@@ -21,6 +21,10 @@ author = "ショウニン"
 defaultTheme = "dark"
 disableThemeToggle = true
 copyright = "灯台に向かう"
+images = ["/images/ogp-default.png"]
+
+[params.social]
+  twitter = "https://x.com/shonin_k"
 
 [params.label]
 text = "灯台に向かう"

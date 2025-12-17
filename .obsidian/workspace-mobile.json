@@ -174,6 +174,7 @@
   },
   "active": "857aa384a99b5ad8",
   "lastOpenFiles": [
+    "content/posts/2025-12-17.md",
     "themes/PaperMod/theme.toml",
     "themes/PaperMod/layouts/shortcodes/rtl.html",
     "themes/PaperMod/layouts/shortcodes/rawhtml.html",
@@ -184,7 +185,6 @@
     "themes/PaperMod/layouts/robots.txt",
     "themes/PaperMod/layouts/partials/translation_list.html",
     "themes/PaperMod/layouts/partials/toc.html",
-    "themes/PaperMod/layouts/partials/templates/twitter_cards.html",
     "themes/PaperMod/images/tn.png",
     "themes/PaperMod/images/screenshot.png",
     "themes/PaperMod/README.md",
@@ -195,7 +195,6 @@
     "content/templates/articles.md",
     "content/search.md",
     "content/posts/コンテンツがまだありません.md",
-    "content/posts/2025-12-17.md",
     "content/articles/コンテンツがまだありません.md",
     "content/archives/_index.md",
     "content/archives/2026.md",

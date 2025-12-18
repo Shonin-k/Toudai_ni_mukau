@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/posts/2025-12-17.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "2025-12-17"
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/2025-12-17.md",
+                "file": "content/templates/articles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-17のアウトライン"
+              "title": "articlesのアウトライン"
             }
           },
           {
@@ -173,18 +173,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "ec65b1519c0e2e29",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "content/posts/2025-12-17.md"
-              },
-              "icon": "lucide-info",
-              "title": "2025-12-17のファイルプロパティ"
             }
           }
         ],
@@ -203,17 +191,23 @@
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "744a1cedb2b1d5d9",
   "lastOpenFiles": [
-    "content/articles/コンテンツがまだありません.md",
+    "templates/more.md",
+    "templates/新規 テキスト ドキュメント.txt",
+    "templates",
+    "新しいフォルダー",
+    "content/posts/2025-12-18.md",
     "content/posts/2025-12-17.md",
-    "content/templates/articles.md",
-    "content/works/コンテンツがまだありません.md",
     "content/posts/コンテンツがまだありません.md",
+    "content/works/コンテンツがまだありません.md",
     "static/images/ogp-default.png",
+    "content/articles/コンテンツがまだありません.md",
+    "content/templates/articles.md",
     "content/search.md",
     "content/新規 テキスト ドキュメント.txt",
     "content/templates/post.md",

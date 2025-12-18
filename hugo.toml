@@ -3,7 +3,7 @@ languageCode = "ja"
 title = "灯台に向かう"
 theme = "PaperMod"
 hasCJKLanguage = true
-summaryLength = 20
+summaryLength = 50
 
 [services]
   [services.googleAnalytics]

@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "show-whitespace"
   ],
-  "accentColor": "#0988c8"
+  "accentColor": "#0988c8",
+  "theme": "obsidian"
 }

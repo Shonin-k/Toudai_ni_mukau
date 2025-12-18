@@ -22,6 +22,7 @@ defaultTheme = "dark"
 disableThemeToggle = true
 copyright = "灯台に向かう"
 images = ["/images/ogp-default.png"]
+summaryLength = 50
 
 [params.social]
 twitter = "shonin_k"

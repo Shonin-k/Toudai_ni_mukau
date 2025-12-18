@@ -2,6 +2,8 @@ baseURL = "https://shonin.net/"
 languageCode = "ja"
 title = "灯台に向かう"
 theme = "PaperMod"
+hasCJKLanguage = true
+summaryLength = 20
 
 [services]
   [services.googleAnalytics]
@@ -22,8 +24,6 @@ defaultTheme = "dark"
 disableThemeToggle = true
 copyright = "灯台に向かう"
 images = ["/images/ogp-default.png"]
-hasCJKLanguage = true
-summaryLength = 20
 
 [params.social]
 twitter = "shonin_k"

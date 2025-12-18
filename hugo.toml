@@ -6,16 +6,16 @@ hasCJKLanguage = true
 summaryLength = 50
 
 [services]
-  [services.googleAnalytics]
-    ID = "G-RPK8WR094G"
+[services.googleAnalytics]
+ID = "G-RPK8WR094G"
 
 [privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
+[privacy.googleAnalytics]
+anonymizeIP = true
+respectDoNotTrack = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
 description = "テキストサイト"
@@ -23,7 +23,10 @@ author = "ショウニン"
 defaultTheme = "dark"
 disableThemeToggle = true
 copyright = "灯台に向かう"
-images = ["/images/ogp-default.png"]
+images = ["https://shonin.net/images/ogp-default.png"]
+
+[params.cover]
+image = "https://shonin.net/images/ogp-default.png"
 
 [params.social]
 twitter = "shonin_k"

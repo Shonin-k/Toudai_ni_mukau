@@ -195,8 +195,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "744a1cedb2b1d5d9",
+  "active": "06a88314308eff19",
   "lastOpenFiles": [
+    "layouts/partials/templates/opengraph.html",
+    "layouts/partials/templates/新規 テキスト ドキュメント.txt",
+    "layouts/partials/templates",
+    "layouts/partials/新しいフォルダー",
+    "layouts/partials/新規 テキスト ドキュメント.txt",
     "templates/more.md",
     "templates/新規 テキスト ドキュメント.txt",
     "templates",

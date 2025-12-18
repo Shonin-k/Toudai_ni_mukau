@@ -23,7 +23,7 @@ disableThemeToggle = true
 copyright = "灯台に向かう"
 images = ["/images/ogp-default.png"]
 hasCJKLanguage = true
-summaryLength = 50
+summaryLength = 20
 
 [params.social]
 twitter = "shonin_k"

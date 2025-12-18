@@ -22,6 +22,7 @@ defaultTheme = "dark"
 disableThemeToggle = true
 copyright = "灯台に向かう"
 images = ["/images/ogp-default.png"]
+hasCJKLanguage = true
 summaryLength = 50
 
 [params.social]

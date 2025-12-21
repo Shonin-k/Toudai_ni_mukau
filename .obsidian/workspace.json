@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025-12-20.md",
+                "file": "content/posts/2025-12-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-20"
+              "title": "2025-12-22"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "744a1cedb2b1d5d9",
   "lastOpenFiles": [
-    "content/posts/2025-12-17.md",
     "content/posts/2025-12-20.md",
+    "content/posts/2025-12-22.md",
+    "無題のファイル.md",
+    "content/posts/2025-12-17.md",
     "layouts/partials/templates/twitter_cards.html",
     "layouts/partials/templates/新規 テキスト ドキュメント.txt",
     "layouts/partials/templates/opengraph.html",
@@ -219,7 +221,6 @@
     "content/新規 テキスト ドキュメント.txt",
     "content/templates/post.md",
     "content/templates/works.md",
-    "無題のファイル.md",
     "content/works/無題のファイル.md",
     "content/works/test.md",
     "content/_index.md",

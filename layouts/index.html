@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="home-content">
   <section class="latest-post">
-    <h2>📌 日記冒頭</h2>
+    <h2>📌 日記の冒頭</h2>
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
     {{ $latest := index $posts 0 }}
     {{ if $latest }}

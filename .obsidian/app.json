@@ -1,4 +1,6 @@
 {
   "strictLineBreaks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "static/images"
 }

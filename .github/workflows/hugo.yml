@@ -1,5 +1,8 @@
 name: Deploy Hugo site to Pages
 
+env:
+  TZ: Asia/Tokyo
+
 on:
   push:
     branches: ["main"]

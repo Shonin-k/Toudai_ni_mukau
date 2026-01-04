@@ -3,7 +3,7 @@ title: test
 description: 日記
 date: 2025-12-28
 preview: 日記
-draft: true
+draft: false
 tags: []
 categories:
   - 日記

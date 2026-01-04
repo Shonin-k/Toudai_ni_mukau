@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2026-01-04.md",
+                "file": "content/templates/post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-04"
+              "title": "post"
             }
           }
         ]
@@ -197,10 +197,14 @@
   },
   "active": "744a1cedb2b1d5d9",
   "lastOpenFiles": [
-    "content/works/コンテンツがまだありません.md",
+    "content/templates/articles.md",
+    "content/templates/post.md",
+    "content/templates/works.md",
     "content/posts/2026-01-04.md",
-    "content/posts/コンテンツがまだありません.md",
     "content/posts/2026-01-03.md",
+    "content/posts/2025-12-22.md",
+    "content/works/コンテンツがまだありません.md",
+    "content/posts/コンテンツがまだありません.md",
     "static/images/vic_4.jpg",
     "static/images/vic_3.jpg",
     "static/images/vic_2.jpg",
@@ -211,7 +215,6 @@
     "static/images/PXL_20260103_111400204.jpg",
     "static/images/risiri_2.jpg",
     "static/images/risiri_1.jpg",
-    "content/posts/2025-12-22.md",
     "content/posts/2025-12-20.md",
     "無題のファイル.md",
     "content/posts/2025-12-17.md",
@@ -227,11 +230,8 @@
     "新しいフォルダー",
     "content/posts/2025-12-18.md",
     "content/articles/コンテンツがまだありません.md",
-    "content/templates/articles.md",
     "content/search.md",
     "content/新規 テキスト ドキュメント.txt",
-    "content/templates/post.md",
-    "content/templates/works.md",
     "content/works/無題のファイル.md",
     "content/works/test.md",
     "content/_index.md",

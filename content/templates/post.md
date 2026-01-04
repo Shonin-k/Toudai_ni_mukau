@@ -6,5 +6,5 @@ preview: ""
 draft: true
 tags: []
 categories: []
-images: ["/images/ogp-default.png"]
+images: ["https://shonin.net/images/ogp-default.png"]
 ---

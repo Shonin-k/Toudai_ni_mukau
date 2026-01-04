@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/works/コンテンツがまだありません.md",
+                "file": "content/posts/2026-01-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "コンテンツがまだありません"
+              "title": "2026-01-04"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "744a1cedb2b1d5d9",
   "lastOpenFiles": [
+    "content/works/コンテンツがまだありません.md",
     "content/posts/2026-01-04.md",
     "content/posts/コンテンツがまだありません.md",
     "content/posts/2026-01-03.md",
@@ -225,7 +226,6 @@
     "templates",
     "新しいフォルダー",
     "content/posts/2025-12-18.md",
-    "content/works/コンテンツがまだありません.md",
     "content/articles/コンテンツがまだありません.md",
     "content/templates/articles.md",
     "content/search.md",

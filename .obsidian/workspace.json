@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
+                "file": "content/posts/test.md",
                 "mode": "source",
                 "source": false
               },
@@ -210,10 +210,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6aeb2a185c77e414",
+  "active": "11b9a59542ee78c5",
   "lastOpenFiles": [
     "content/posts/test.md",
-    "test.md",
+    "content/posts/test.md",
     "content/posts/2026-01-05.md",
     "content/posts/2026-01-04.md",
     "content/posts/2026-01-03.md",

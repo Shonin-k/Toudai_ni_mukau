@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/articles/コンテンツがまだありません.md",
+                "file": "content/templates/pokemon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "コンテンツがまだありません"
+              "title": "pokemon"
             }
           }
         ]
@@ -198,8 +198,8 @@
   "active": "768ff6aa445762b8",
   "lastOpenFiles": [
     "content/articles/test_team.md",
-    "content/posts/2026-04-20.md",
     "content/articles/コンテンツがまだありません.md",
+    "content/posts/2026-04-20.md",
     "content/templates/pokemon.md",
     "content/templates/articles.md",
     "無題のファイル.md",

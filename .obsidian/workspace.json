@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0aa960003231a353",
+        "id": "ac4f14f730ca0fea",
         "type": "tabs",
         "children": [
           {
-            "id": "6aeb2a185c77e414",
+            "id": "5604f666e452c02b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/2026-01-07.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-01-07"
+              "title": "新規タブ"
             }
           }
         ]
@@ -89,25 +85,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d02729413a42b6c5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "content/templates/articles.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "articlesへのバックリンク"
-            }
-          },
-          {
             "id": "48d1369a91b11b55",
             "type": "leaf",
             "state": {
@@ -174,9 +151,27 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "ceb29013c4003308",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "バックリンク"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -184,24 +179,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6aeb2a185c77e414",
+  "active": "5604f666e452c02b",
   "lastOpenFiles": [
+    "content/posts/2026-01-07.md",
+    "content/articles/無題のファイル.md",
     "static/images/toeic_0107_3.png",
     "static/images/SnapCrab_NoName_2026-1-7_22-41-41_No-00.png",
     "static/images/toeic_0107_2.png",
     "content/posts/2026-01-05.md",
-    "content/posts/2026-01-07.md",
     "static/images/toeic_0107.png",
     "content/posts/2026-01-04.md",
     "content/posts/2025-12-17.md",
@@ -223,7 +219,6 @@
     "static/images/vic_1.jpg",
     "static/images/PXL_20260103_110825265.jpg",
     "static/images/PXL_20260103_110313398.jpg",
-    "static/images/PXL_20260103_112612710.jpg",
     "layouts/partials/templates/twitter_cards.html",
     "layouts/partials/templates/新規 テキスト ドキュメント.txt",
     "layouts/partials/templates/opengraph.html",

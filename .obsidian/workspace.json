@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "262bfb12486cf09b",
+        "id": "3dc3b528542dc6c5",
         "type": "tabs",
         "children": [
           {
-            "id": "6e168789dbea2723",
+            "id": "276fed6f2e3ce3f1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -191,10 +191,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11b9a59542ee78c5",
+  "active": "276fed6f2e3ce3f1",
   "lastOpenFiles": [
-    "content/templates/pokemon.md",
     "content/articles/構築メモ：晴れトリルメガガルーラVer1.0.md",
+    "content/archives/2026.md",
+    "content/templates/pokemon.md",
     "content/templates/post.md",
     "content/templates/articles.md",
     "content/articles/コンテンツがまだありません.md",

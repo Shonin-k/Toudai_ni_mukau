@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "745192c61255e635",
+        "id": "8a0014eef2ef6e36",
         "type": "tabs",
         "children": [
           {
-            "id": "768ff6aa445762b8",
+            "id": "2c96954fe37c08b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2026-04-21.md",
+                "file": "content/articles/【瞬間レート2130】ガルキリン軸晴れトリル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-21"
+              "title": "【瞬間レート2130】ガルキリン軸晴れトリル"
             }
           }
         ]
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "9677a298e2037276",
+            "id": "645ee77cef5d0470",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,25 +88,6 @@
         "id": "f9f0b388950c0504",
         "type": "tabs",
         "children": [
-          {
-            "id": "d02729413a42b6c5",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "content/templates/articles.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "articlesへのバックリンク"
-            }
-          },
           {
             "id": "48d1369a91b11b55",
             "type": "leaf",
@@ -174,9 +155,28 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "ceb29013c4003308",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/templates/pokemon.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "pokemonへのバックリンク"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,53 +195,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "768ff6aa445762b8",
+  "active": "2c96954fe37c08b6",
   "lastOpenFiles": [
     "content/articles/構築メモ：晴れトリルメガガルーラVer1.0.md",
-    "content/posts/2026-04-21.md",
+    "content/articles/【瞬間レート2130】ガルキリン軸晴れトリル.md",
     "content/posts/2026-01-07.md",
-    "content/posts/2026-01-05.md",
-    "content/templates/post.md",
-    "content/templates/works.md",
-    "content/templates/pokemon.md",
-    "content/templates/articles.md",
-    "content/articles/test_team.md",
-    "content/articles/コンテンツがまだありません.md",
-    "content/posts/2026-04-20.md",
-    "無題のファイル.md",
-    "無題のファイル.base",
-    "無題のファイル 1.base",
-    "templates/more.md",
+    "content/posts/2026-04-21.md",
     "content/posts/2025-12-22.md",
+    "content/posts/2025-12-20.md",
+    "content/posts/2025-12-18.md",
+    "content/posts/2025-12-17.md",
+    "static/images/haretori_1.jpg",
+    "static/images/haretori_2.jpg",
+    "static/images/20260427000704-01KQ552246KG67RZTM1RPBG84Z.jpg",
+    "static/images/20260427000703-01KQ551E2G40TXEDKSMVVFVP2T.jpg",
+    "content/archives/2026.md",
+    "content/templates/pokemon.md",
+    "content/templates/post.md",
+    "content/templates/articles.md",
+    "content/articles/コンテンツがまだありません.md",
+    "content/articles/test_team.md",
+    "static/tegami_memo.txt",
+    "static/tegami_fin_split.txt",
+    "static/tegami_fin.txt",
+    "static/images/toeic_0107_3.png",
+    "static/images/SnapCrab_NoName_2026-1-7_22-41-41_No-00.png",
+    "static/images/toeic_0107_2.png",
+    "content/posts/2026-01-05.md",
+    "static/images/toeic_0107.png",
+    "content/posts/2026-01-04.md",
+    "content/posts/test.md",
+    "content/posts/2026-01-03.md",
+    "content/posts/てすと.md",
+    "無題のファイル 1.md",
+    "content/templates/works.md",
+    "content/works/コンテンツがまだありません.md",
+    "content/posts/コンテンツがまだありません.md",
     "static/images/vic_4.jpg",
     "static/images/vic_3.jpg",
-    "static/images/vic_2.jpg",
-    "static/images/vic_1.jpg",
-    "static/images/touyako_2.jpg",
-    "static/images/touyako_1.jpg",
-    "static/images/toeic_0107_3.png",
-    "static/images/toeic_0107_2.png",
-    "static/images/toeic_0107.png",
-    "static/images/risiri_2.jpg",
-    "content/posts/2026-01-04.md",
-    "content/posts/2026-01-03.md",
-    "content/posts/2025-12-20.md",
-    "content/posts/2025-12-17.md",
     "layouts/partials/templates/twitter_cards.html",
     "layouts/partials/templates/新規 テキスト ドキュメント.txt",
     "layouts/partials/templates/opengraph.html",
     "layouts/partials/templates",
     "layouts/partials/新しいフォルダー",
     "layouts/partials/新規 テキスト ドキュメント.txt",
+    "templates/more.md",
     "templates/新規 テキスト ドキュメント.txt",
-    "templates",
-    "content/posts/2025-12-18.md",
-    "content/posts/コンテンツがまだありません.md",
-    "content/works/コンテンツがまだありません.md",
     "content/search.md",
-    "content/works/無題のファイル.md",
-    "content/works/test.md",
-    "content/_index.md",
-    "content/articles/aa.md"
+    "content/works/無題のファイル.md"
   ]
 }
